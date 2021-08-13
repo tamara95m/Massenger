@@ -46,8 +46,9 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_marginStart="32dp"
-                android:background="@color/purple_700"
+
                 android:scaleType="centerCrop"
+                android:src="@drawable/tany1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -333,6 +334,7 @@
                 android:layout_marginBottom="48dp"
                 android:background="#FFEB3B"
                 android:scaleType="centerCrop"
+                android:src="@drawable/tany2"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:shapeAppearanceOverlay="@style/rounded_corner" />
@@ -345,7 +347,7 @@
                 android:background="@color/purple_500"
                 android:scaleType="centerCrop"
                 app:layout_constraintStart_toEndOf="@+id/first_pic"
-
+android:src="@drawable/tany4"
                 app:layout_constraintTop_toTopOf="@+id/first_pic"
                 app:shapeAppearanceOverlay="@style/rounded_corner" />
 
@@ -359,7 +361,7 @@
                 app:layout_constraintHorizontal_bias="0.196"
                 app:layout_constraintStart_toEndOf="@+id/second_pic"
                 app:layout_constraintTop_toTopOf="@+id/first_pic"
-
+android:src="@drawable/tany3"
                 app:shapeAppearanceOverlay="@style/rounded_corner" />
 
             <com.google.android.material.imageview.ShapeableImageView
@@ -370,6 +372,7 @@
                 android:layout_marginTop="8dp"
                 android:background="@color/purple_200"
                 android:scaleType="centerCrop"
+                android:src="@drawable/tany7"
                 app:layout_constraintStart_toEndOf="@+id/first_pic"
                 app:layout_constraintTop_toBottomOf="@+id/second_pic"
                 app:shapeAppearanceOverlay="@style/rounded_corner" />
@@ -384,7 +387,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.196"
-
+android:src="@drawable/tany6"
                 app:layout_constraintStart_toEndOf="@+id/fourth_pic"
                 app:shapeAppearanceOverlay="@style/rounded_corner" />
 
